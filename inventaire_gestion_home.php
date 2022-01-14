@@ -720,7 +720,7 @@ echo $_SESSION['token'];?>">
  var number = /^[0-9]{1,2}$/;
  var inf = /^[a-zA-Z0-9éàèçé]{0,130}$/;
  var info = /^[a-zA-Z0-9éàèçé]{0,130}$/;
- var expres = /^[chambreAppartement]{1,30}(\s[0-9ABCDEA-B-C-]{1,4})$/;
+ var expres = /^[chambreAppartement]{1,25}(\s[0-9ABCDEA-B-C-]{1,4})$/;
 // on ecrits les variable
 var ids =$('#ids').val();
 var num =$('#num').val();
